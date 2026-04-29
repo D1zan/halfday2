@@ -9,7 +9,6 @@ public class Weather {
         this.temperature = temperature;
         this.city = city;
     }
-
     private int getTemperature() {
         return temperature;
     }
