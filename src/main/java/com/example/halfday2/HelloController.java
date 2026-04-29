@@ -13,6 +13,7 @@ public class HelloController {
     @FXML
     private Button submit_button;
 
+    private int temperature;
 //    @FXML
 //    protected void onHelloButtonClick() {
 //
@@ -20,7 +21,7 @@ public class HelloController {
 
     @FXML
     protected  void submitButton(){
-        welcomeText.setText("The weather is " + "degrees");
+        welcomeText.setText("The weather is " + temperature + "degrees");
 
     }
 }

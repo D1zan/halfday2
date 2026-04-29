@@ -1,6 +1,6 @@
 package com.example.halfday2;
 
-import static jdk.internal.agent.Agent.getText;
+
 
 public class Weather {
     private int temperature;
@@ -16,8 +16,6 @@ public class Weather {
     }
 
     private String getCity() {
-
-        city = getText(welcomeText) ;
         return city;
     }
 }

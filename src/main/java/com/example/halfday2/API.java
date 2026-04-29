@@ -17,6 +17,8 @@ public class API {
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder().uri(URI.create(url)).build();
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
+
+
         return new Weather (temperature, city);
     }
 

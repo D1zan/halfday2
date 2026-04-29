@@ -1,6 +1,5 @@
 package com.example.halfday2;
 
-
 import java.util.Scanner;
 import java.util.Scanner;
 
