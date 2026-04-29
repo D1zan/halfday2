@@ -2,13 +2,20 @@ package com.example.halfday2;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.control.Button;
 
 public class HelloController {
     @FXML
-    private Label welcomeText;
+    private Label tempText;
+
+//    @FXML
+//    protected void onHelloButtonClick() {
+//
+//    }
 
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    protected  void onSubmitButtonClick(){
+        tempText.setText("Welcome to JavaFX Application!");
     }
 }
