@@ -3,11 +3,11 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane fx:id="welcomeText" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.halfday2.HelloController">
    <children>
       <Label layoutX="270.0" layoutY="25.0" prefHeight="59.0" prefWidth="145.0" text="Wear Cast " />
       <Label fx:id="welcomeText" layoutX="165.0" layoutY="145.0" text="Enter the city you want to know the temperature of" />
       <TextField fx:id="city_name" layoutX="218.0" layoutY="188.0" promptText="Enter the city name:" />
-      <Button fx:id="submit_button" layoutX="266.0" layoutY="239.0" mnemonicParsing="false" onMouseClicked="#clicked" text="Submit" />
+      <Button fx:id="submit_button" onAction="#submitButton" layoutX="266.0" layoutY="239.0" mnemonicParsing="false"  text="Submit" />
    </children>
 </Pane>

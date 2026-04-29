@@ -7,7 +7,11 @@ import javafx.scene.control.Button;
 
 public class HelloController {
     @FXML
-    private Label tempText;
+    private TextField city_name;
+    @FXML
+    private Label welcomeText;
+    @FXML
+    private Button submit_button;
 
 //    @FXML
 //    protected void onHelloButtonClick() {
@@ -15,7 +19,8 @@ public class HelloController {
 //    }
 
     @FXML
-    protected  void onSubmitButtonClick(){
-        tempText.setText("Welcome to JavaFX Application!");
+    protected  void submitButton(){
+        welcomeText.setText("The weather is " + "degrees");
+
     }
 }
